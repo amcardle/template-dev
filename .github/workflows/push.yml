@@ -1,6 +1,6 @@
 name: All Branch Build and Deploy
 
-on [push]
+on: [push]
 
 jobs:
   build-deploy:

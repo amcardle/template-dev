@@ -3,4 +3,4 @@
 
 [medtool.surge.sh](https://medtool.surge.sh/)
 
-[beta branch](https://medtool-beta.surge.sh/)
+[aabeta branch](https://medtool-beta.surge.sh/)

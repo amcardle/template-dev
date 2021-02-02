@@ -1,7 +1,6 @@
-import { fireEvent, render } from "@testing-library/svelte";
-import { describe, expect, test } from "@jest/globals";
+import {  render } from "@testing-library/svelte";
+import { expect, test } from "@jest/globals";
 import ExampleComponent from "./ExampleComponent.svelte";
-import { IndexKind } from "typescript";
 
 test("example test", () => {
   expect(1 + 1).toEqual(2);

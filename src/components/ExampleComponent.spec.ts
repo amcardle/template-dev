@@ -10,3 +10,4 @@ test("function in component", () => {
   const { component } = render(ExampleComponent);
   expect(component.addition(1, 2)).toEqual(3);
 });
+

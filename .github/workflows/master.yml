@@ -18,10 +18,10 @@ jobs:
       - run: npm run test
       - run: npm run build
       - run: npm run adapt
-      - name: Deploy to https://${{GITHUB_REPOSITORY#*/}}.surge.sh
+      - name: Deploy to surge
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: "https://${{GITHUB_REPOSITORY#*/}}.surge.sh"
+          domain: "https://${{GITHUB_REPOSITORY}}.surge.sh"
           project: "build"
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
